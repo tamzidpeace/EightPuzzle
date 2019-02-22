@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6C757D"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Name"
+        android:textSize="20sp"
+        android:background="#fff"/>
+
+    <TextView
+        android:id="@+id/email_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:hint="Email"
+        android:textSize="20sp"
+        android:background="#fff"/>
+
+    <TextView
+        android:id="@+id/dept_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:hint="Department"
+        android:textSize="20sp"
+        android:background="#fff"/>
+
+    <TextView
+        android:id="@+id/dist_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:hint="Home District"
+        android:textSize="20sp"
+        android:background="#fff"/>
+
+    <EditText
+        android:id="@+id/input_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="100dp"
+        android:hint="Enter Your Text Here"
+        android:background="#fff"/>
+
+    <Button
+        android:id="@+id/enter_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Enter"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+
+
+
+
+
+
+</LinearLayout>

@@ -29,11 +29,11 @@
         android:background="#fff"/>
 
     <TextView
-        android:id="@+id/dept_text"
+        android:id="@+id/phone_text"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_margin="10dp"
-        android:hint="Department"
+        android:hint="Phone Number"
         android:textSize="20sp"
         android:background="#fff"/>
 
@@ -43,6 +43,15 @@
         android:layout_height="50dp"
         android:layout_margin="10dp"
         android:hint="Home District"
+        android:textSize="20sp"
+        android:background="#fff"/>
+
+    <TextView
+        android:id="@+id/blood_group_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:hint="Blood Group"
         android:textSize="20sp"
         android:background="#fff"/>
 
